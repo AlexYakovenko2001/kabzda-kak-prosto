@@ -5,6 +5,7 @@ type StarPropsType = {
     selected: boolean
 }
 
+
 function Star(props: StarPropsType) {
     console.log('Star rendering')
     if (props.selected === true) {
