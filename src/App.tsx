@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
-import {TrackValueOfUncontrolledInput} from './components/UncontrolledInput/TrackValueOfUncontrolledInput/TrackValueOfUncontrolledInput';
-import {
-    GetValueOfUncontrolledInputByButtonPress
-} from './components/UncontrolledInput/GetValueOfUncontrolledInputByButtonPress/GetValueOfUncontrolledInputByButtonPress';
-import {UncontrolledInput} from './components/UncontrolledInput/UncontrolledInput';
+import {ControlledInput} from './components/input/ControlledInput/ControlledInput';
+import {ControlledCheckbox} from './components/input/ControlledCheckbox/ControlledCheckbox';
+import {ControlledSelect} from './components/input/ControlledSelect/ControlledSelect';
 
 function App() {
 
     return (
         <div className={'App'}>
-            <UncontrolledInput/>
+            <ControlledInput/>
             <br/>
             <br/>
-            <TrackValueOfUncontrolledInput/>
+            <ControlledCheckbox/>
             <br/>
             <br/>
-            <GetValueOfUncontrolledInputByButtonPress/>
+            <ControlledSelect/>
         </div>);
 }
 
