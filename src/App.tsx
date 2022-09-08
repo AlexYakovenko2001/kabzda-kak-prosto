@@ -1,12 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import {Select} from './components/Select/Select';
+import UncontrolledAccordion from './components/UncontrolledAccordion/UncontrolledAccordion';
 
 function App() {
-    const [value, setValue] = useState('1')
     return (
         <div className={'App'}>
-            <Select value={value} onChange={setValue} items={[{value: '1', title: 'Minsk'}, {value: '2', title: 'Kiev'}, {value: '3', title: 'Moscow'}]} />
+            <UncontrolledAccordion title={'blabla'}/>
         </div>);
 }
 
