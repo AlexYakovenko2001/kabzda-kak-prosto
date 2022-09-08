@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import UncontrolledAccordion from './components/UncontrolledAccordion/UncontrolledAccordion';
+import {ReactMemo} from './components/ReactMemo/ReactMemo';
 
 function App() {
     return (
         <div className={'App'}>
-            <UncontrolledAccordion title={'blabla'}/>
+            <ReactMemo/>
         </div>);
 }
 
